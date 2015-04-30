@@ -1,0 +1,52 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.spacer {
+  width:15px;
+  height:auto;
+  display:inline-block;
+}
+
+#tweet-container {
+  overflow-y:auto;
+  padding-top: 60px;
+}
+
+.main, .row-fluid {
+  height: 100%;
+}
+
+.main:before, .main:after,
+.column:before, .column:after {
+  content: "";
+  display: table;
+}
+
+.main:after,
+.column:after {
+  clear: both;
+}
+
+.column {
+  height: 100%;
+  overflow: auto;
+  *zoom:1;
+}
+
+.column .padding {
+  padding: 20px;
+}
+
+.box {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top:0;
+}
