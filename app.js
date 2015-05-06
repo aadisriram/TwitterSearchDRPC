@@ -34,7 +34,7 @@ app.set('port', process.env.PORT || 3000);
 var Twit = require('twit')
 var nodeDrpc = require('node-drpc');
 var nodeDrpcClient =  new  nodeDrpc("152.46.18.144", 3772);
-var sploutBaseUrl = 'http://152.46.19.147:4412/api/query/inverted_index_2?key=&sql=select%20*%20from%20tweet_index%20where%20word%20=%20%22';
+var sploutBaseUrl = 'http://152.46.19.147:4412/api/query/inverted_index_2?key=&sql=select%20*%20from%20tweet_index%20where%20word%20like%20%22';
 
 var T = new Twit({
   consumer_key: 'GxJmUr1a8GWJkasgcC6noJC6P',
